@@ -5,8 +5,14 @@ import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
 import StyleContext from "../../contexts/StyleContext";
 import {
   greeting,
-  workExperiences,
+  // workExperiences,
   skillsSection,
+  educationInfo,
+  publicationInfo,
+  thesesInfo,
+  honorInfo,
+  projectsInfo,
+  experiencesInfo,
   openSource,
   blogSection,
   talkSection,
@@ -16,9 +22,15 @@ import {
 
 function Header() {
   const {isDark} = useContext(StyleContext);
-  const viewExperience = workExperiences.display;
+  // const viewExperience = workExperiences.display;
   const viewOpenSource = openSource.display;
   const viewSkills = skillsSection.display;
+  const viewEducation = educationInfo.display;
+  const viewPublications = publicationInfo.display;
+  const viewTheses = thesesInfo.display;
+  const viewHonors = honorInfo.display;
+  const viewProjects = projectsInfo.display;
+  const viewExperiences = experiencesInfo.display;
   const viewAchievement = achievementSection.display;
   const viewBlog = blogSection.display;
   const viewTalks = talkSection.display;
@@ -46,9 +58,39 @@ function Header() {
               <a href="#skills">Skills</a>
             </li>
           )}
-          {viewExperience && (
+          {viewEducation && (
+            <li>
+              <a href="#education">Education</a>
+            </li>
+          )}
+          {viewProjects && (
+            <li>
+              <a href="#projects">Projects</a>
+            </li>
+          )}
+          {viewExperiences && (
+            <li>
+              <a href="#experiences">Experiences</a>
+            </li>
+          )}
+          {viewHonors && (
+            <li>
+              <a href="#honors">Achievements</a>
+            </li>
+          )}
+          {/* {viewExperience && (
             <li>
               <a href="#experience">Work Experiences</a>
+            </li>
+          )} */}
+          {viewPublications && (
+            <li>
+              <a href="#publications">Publications</a>
+            </li>
+          )}
+          {viewTheses && (
+            <li>
+              <a href="#theses">Theses</a>
             </li>
           )}
           {viewOpenSource && (

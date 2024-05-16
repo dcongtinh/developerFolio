@@ -20,26 +20,27 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Dao Cong Tinh",
+  title: "Hi, I'm TonyD",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A dedicated and inquisitive Computer Science researcher 👨‍💻 specializing in Deep Reinforcement Learning, Robotics, Autonomous Driving (AWS DeepRacer), and Medical Image Processing. As a competitive programmer and tech enthusiast, I love exploring new technologies to solve real-life problems 🚀."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://sites.google.com/view/dcongtinh", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/dcongtinh",
+  linkedin: "https://www.linkedin.com/in/dcongtinh/",
+  gmail: "dcongtinh@gmail.com",
+  // gitlab: "https://gitlab.com/dcongtinh",
+  facebook: "https://www.facebook.com/dcongtinh",
+  line: "Line ID: dcongtinh",
+  // medium: "https://medium.com/@dcongtinh",
+  // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,14 +50,17 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  // subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "🤔 Algorithms, Competitive Programming"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("🕹️ Reinforcement Learning (RL), DeepRL"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "🤖 Robotics, Computer games, AWS DeepRacer"
+    ),
+    emoji(
+      "🧠 BioInformatics, Medical Image Processing"
     )
   ],
 
@@ -65,15 +69,15 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
+      skillName: "HTML-5",
       fontAwesomeClassname: "fab fa-html5"
     },
     {
-      skillName: "css3",
+      skillName: "CSS3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
+      skillName: "SASSS",
       fontAwesomeClassname: "fab fa-sass"
     },
     {
@@ -81,40 +85,61 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
+      skillName: "Reactjs",
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
+      skillName: "Nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
+    // {
+    //   skillName: "swift",
+    //   fontAwesomeClassname: "fab fa-swift"
+    // },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
+      skillName: "NPM",
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "sql-database",
+      skillName: "SQL-Database",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
+      skillName: "AWS",
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "Digital Ocean",
+      fontAwesomeClassname: "fab fa-digital-ocean"
     },
     {
-      skillName: "python",
+      skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
+      skillName: "Docker",
       fontAwesomeClassname: "fab fa-docker"
+    },
+    // {
+    //   skillName: "Heroku",
+    //   fontAwesomeClassname: "fab",
+    //   icon: '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--simple-icons" width="64" height="64" viewBox="0 0 24 24" > <path fill="currentColor" d="M20.61 0H3.39a2.15 2.15 0 0 0-2.16 2.16v19.681A2.15 2.15 0 0 0 3.39 24h17.22a2.15 2.15 0 0 0 2.159-2.159V2.16A2.15 2.15 0 0 0 20.61 0m.96 21.841c0 .539-.421.96-.96.96H3.39a.95.95 0 0 1-.96-.96V2.16c0-.54.42-.961.96-.961h17.22a.95.95 0 0 1 .96.961zM6.63 20.399L9.33 18l-2.7-2.4zm9.72-9.719c-.479-.48-1.379-1.08-2.879-1.08c-1.621 0-3.301.421-4.5.84V3.6h-2.4v10.38l1.68-.78s2.76-1.26 5.16-1.26c1.2 0 1.5.66 1.5 1.26v7.2h2.4v-7.2c.059-.179.059-1.501-.961-2.52M13.17 7.5h2.4c1.08-1.26 1.62-2.521 1.8-3.9h-2.399c-.241 1.379-.841 2.64-1.801 3.9" ></path></svg>'
+    // },
+    {
+      skillName: "Bitbucket",
+      fontAwesomeClassname: "fab fa-bitbucket"
+    },
+    {
+      skillName: "Git",
+      fontAwesomeClassname: "fab fa-git-alt"
+    },
+    {
+      skillName: "Slack",
+      fontAwesomeClassname: "fab fa-slack"
+    },
+    {
+      skillName: "Trello",
+      fontAwesomeClassname: "fab fa-trello"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -124,33 +149,186 @@ https://fontawesome.com/icons?d=gallery */
 
 const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
+  id: 'education',
+  sectionName: "Education",
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
+      schoolName: "National Yang Ming Chiao Tung University",
+      logo: require("./assets/images/nycu_logo.jpeg"),
       subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      duration: "February 2022 - April 2024",
+      desc: 'Advisor: <a href="https://icwu307.github.io/" target="_blank">Distinguished Professor I-Chen Wu</a></br>\
+            <span style="display: block; margin-top: 0.5rem;">Thesis: <i>Derivative-based Regularization for Action Smoothness in Deep Reinforcement Learning Robotics Control</i></span>',
+      // descBullets: [
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      // ]
+    },
+    {
+      schoolName: "Can Tho University",
+      logo: require("./assets/images/CTU_Logo.jpeg"),
+      subHeader: "Bachelor of Engineering in Computer Science",
+      duration: "September 2017 - September 2021",
+      desc: 'Advisor: <a href="https://www.cit.ctu.edu.vn/~pnkhang/cv-vi.html" target="_blank">Associate Professor Pham Nguyen Khang</a></br>\
+      <span style="display: block; margin-top: 0.5rem;">Thesis: <i>Action Recognition and Its Application For Controlling Video Game via Digital Camera</i></span>',
+      // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+    },
+    {
+      schoolName: "Ly Tu Trong Specialized High School",
+      logo: require("./assets/images/LTT_Logo.jpeg"),
+      subHeader: "High School Diplomates in Informatics",
+      duration: "2014 - 2017",
+      // desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+    }
+  ]
+};
+
+// Project Section
+
+const projectsInfo = {
+  display: true, // Set false to hide this section, defaults to true
+  id: "projects",
+  sectionName: "Projects",
+  papers: [
+    {
+      schoolName: "Research:",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "<i>Hệ thống thông tin quản lý thực hành tích hợp điểm danh bằng nhận diện khuôn mặt</i>. <b>Practice Management Information System Integrating Attendance With Face Recognition</b> (article in Vietnamese with an abstract in English). (06/2020 - 12/2020).",
+        "<i>Sử dụng phương pháp binning để nâng cao hiệu quả chẩn đoán bệnh của các mô hình máy học trên dữ liệu Metagenomic</i>. <b>Using binning method to improve disease diagnosis efficiency of machine learning models on Metagenomic data</b> (article in Vietnamese with an abstract in English). (12/2019 - 04/2020)."
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Others:",
+      descBullets: [
+        "1-year experience in front-end web (jQuery & React JS) and mobile apps (React Native). (Dec 2018 – Dec 2019)."
+      ]
     }
+  ]
+};
+
+// Experience Section
+
+const experiencesInfo = {
+  display: true, // Set false to hide this section, defaults to true
+  id: "experiences",
+  sectionName: "Experiences",
+  papers: [
+    {
+      schoolName: "Volunteers:",
+      descBullets: [
+        "Certificate of honor as a vice president of the Vietnamese Student Association (VSA) at National Yang Ming Chiao Tung University by VSA in Taiwan 2023",
+        "Certificate of supporting for International Day by Office of International Affairs at National Yang Ming Chiao Tung University in 2023",
+        "IEEE International Conference on Knowledge and Systems Engineering (KSE) 2020. Organized by Can Tho University (CTU) cooperated with VNU University of Engineering and Technology. (Assistant)"
+      ]
+    },
+    {
+      schoolName: "Work",
+      descBullets: [
+        "1-year experience in front-end web (jQuery & React JS) and mobile apps (React Native). (Dec 2018 – Dec 2019)."
+      ]
+    }
+  ]
+};
+
+// Publication Section
+
+const publicationInfo = {
+  display: true, // Set false to hide this section, defaults to true
+  id: "publications",
+  sectionName: "Publications",
+  papers: [
+    {
+      schoolName: "Conference Papers:",
+      descBullets: [
+        "I Lee, Hoang-Giang Cao, <u>Cong-Tinh Dao</u>, and I-Chen Wu. (2024). \
+        <a>Gradient-based Regularization for Action Smoothness in Robotic Control with Reinforcement Learning</a>. \
+        <i>2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</i>. (Under Submission).",
+        "Phan, T. M. N., <u>Dao, C. T.</u>, Phan, T. T., & Nguyen, H. T. (2023, October). \
+        <a href='https://doi.org/10.1007/978-981-99-7649-2_2' target='_blank'> SDCANet: Enhancing Symptoms-Driven Disease Prediction with CNN-Attention Networks </a>. \
+        In <i>International Conference on Intelligent Systems and Data Science</i> (pp. 15-30).",
+        "<u>Dao, T. C.</u>, & Nguyen, H. T. (2021). \
+        <a href='https://doi.org/10.1007/978-981-16-8062-5_3' target='_blank'>Human mobility prediction using k-latest check-ins</a>.\
+        In <i>Future Data and Security Engineering. Big Data, Security and Privacy, Smart City and Industry 4.0 Applications: 8th International Conference, FDSE 2021, Virtual Event, November 24–26, 2021, Proceedings 8</i> (pp. 36-49).",
+        "Nguyen, T. H., <u>Dao, C. T.</u>, Phan, N. M. T., Nguyen, T. N. C., Phan, T. T., & Pham, H. N. (2020). \
+        <a href='https://doi.org/10.1007/978-981-33-4370-2_10' target='_blank'>Automatic Attendance System Based on Face Recognition Using HOG Features and Cosine Distance</a>. \
+        In <i>Future Data and Security Engineering. Big Data, Security and Privacy, Smart City and Industry 4.0 Applications: 7th International Conference, FDSE 2020, Quy Nhon, Vietnam, November 25–27, 2020, Proceedings 7</i> (pp. 130-148).",
+        "Nguyen, T. H., Phan, T. T., <u>Dao, C. T.</u>, Ta, D. V. P., Nguyen, T. N. C., Phan, N. M. T., & Pham, H. N. (2021). \
+        <a href='https://doi.org/10.1007/978-981-15-9354-3_2' target='_blank'>Effective Disease Prediction on Gene Family Abundance Using Feature Selection and Binning Approach</a>. \
+        In <i>IT Convergence and Security: Proceedings of ICITCS 2020</i> (pp. 19-28)."
+      ]
+    },
+    {
+      schoolName: "Journal Papers:",
+      descBullets: [
+        "Nguyen, H. T., <u>Dao, T. C.</u>, Phan, T. M. N., & Phan, T. T. (2022). \
+        <a href='https://doi.org/10.1504/IJISTA.2022.10050825' target='_blank'>Fake face detection in video using shallow deep learning architectures</a>. \
+        <i>International Journal of Intelligent Systems Technologies and Applications</i>, 20(6), 469-486.",
+        "Nguyen, H. T., Nguyen, C. N. T., Phan, T. M. N., & <u>Dao, T. C.</u> (2021). \
+        <a href='https://doi.org/10.5573/IEIESPC.2021.10.2.101' target='_blank'>Pleural Effusion Diagnosis using Local Interpretable Model-agnostic Explanations and Convolutional Neural Network</a>. \
+        <i>IEIE Transactions on Smart Processing & Computing</i>, 10(2), 101-108.",
+        "Nguyen, H. T., Phan, T. T., <u>Dao, T. C.</u>, Phan, T. M. N., Ta, P. V. D., Nguyen, C. N. T., ... & Huynh, H. X. (2021). \
+        <a href='https://doi.org/10.5614/j.eng.technol.sci.2021.53.1.9' target='_blank'>Gene Family Abundance Visualization based on Feature Selection Combined Deep Learning to Improve Disease Diagnosis</a>. \
+        <i>Journal of Engineering & Technological Sciences</i>, 53(1).",
+        "Phan, T. T., Ta, P. V. D., Phan, T. M. N., Nguyen, C. N. T., <u>Dao, T. C.</u>, Pham, N. H., & Nguyen, H. T. (2020). \
+        <a href='http://dx.doi.org/10.37569/DalatUniversity.10.2.646%282020%29' target='_blank'>Evaluation of Assistance Tools for Diagnosis of Diseases by Approaching to Personalized Medicine on Metagenomic Data</a>. \
+        <i>Dalat University Journal of Science</i>, 117-144."
+      ]
+    }
+  ]
+};
+
+// Theses Section
+
+const thesesInfo = {
+  display: false, // Set false to hide this section, defaults to true
+  id: "theses",
+  sectionName: "Theses",
+  papers: [
+    {
+      descBullets: [
+        "Cong-Tinh Dao. <i>Derivative-based Regularization for Action Smoothness in Deep Reinforcement Learning Robotics Control</i>. Master's thesis in EECS, National Yang Ming Chiao Tung University, April 2024.",
+        "Cong-Tinh Dao. <i>Action Recognition and Its Application For Controlling Video Game via Digital Camera</i>. Engineering Thesis in Computer Science, Can Tho University, October 2021.",
+      ]
+    },
+  ]
+};
+
+
+// Achievements Section
+
+const honorInfo = {
+  display: true, // Set false to hide this section, defaults to true
+  id: "honors",
+  sectionName: "Honors & Awards",
+  papers: [
+    {
+      // schoolName: "Conference Papers:",
+      descBullets: [
+        "NSTC Graduate Research Fellowship Pilot Program (Ph.D degree) - Advisor: Wen-Chih Peng",
+        "AWS DeepRacer League Championship Finals 2023 in Las Vegas",
+        "Certificate of Full Scholarship of National Yang Ming Chiao Tung University",
+        "Odon Vallet Fellowship Certificate in 2021",
+        "Certificate of Completion Summer School on Advances in Data Science and Artificial Intelligence 2021",
+        "Certificate of Completion KIT Bio Tech & IT Online Spring School 2021",
+        "Scholarship for the Best Student of the Academic Year 2017-2021",
+        "Certificate of Achievement the ASIA Vietnam ICPC Regional Contest from 2017-2020",
+        "Third Prize at the 2020 ICPC Vietnam Southern Provincial Programming Contest",
+        "Exchange Student in Chulalongkorn University, Thailand in 2019",
+        "Third Prize: Olympiad for IT student (specialized), 2018",
+        "Second Prize: Olympiad for IT student (non-specialized), 2017",
+        "Second Prize: Young Informatics Innovative Software, 2016",
+        "Silver/Bronze Medal Olympic 30.4, 2015/2016",
+        "Microsoft Certified Application Specialist: Using Microsoft Office Excel 2013",
+      ]
+    },
   ]
 };
 
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
@@ -165,13 +343,13 @@ const techStack = {
       progressPercentage: "60%"
     }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: false, // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: false, //Set it to true to show workExperiences Section
   experience: [
     {
       role: "Software Engineer",
@@ -206,7 +384,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -239,14 +417,14 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Honors & Awards"),
   subtitle:
     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
@@ -300,7 +478,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -324,7 +502,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +521,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +534,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -365,7 +543,7 @@ const resumeSection = {
   subtitle: "Feel free to download my resume",
 
   // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
@@ -380,10 +558,10 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
@@ -392,6 +570,11 @@ export {
   splashScreen,
   skillsSection,
   educationInfo,
+  publicationInfo,
+  thesesInfo,
+  honorInfo,
+  experiencesInfo,
+  projectsInfo,
   techStack,
   workExperiences,
   openSource,

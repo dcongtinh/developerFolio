@@ -12,6 +12,7 @@ import Footer from "../components/footer/Footer";
 import Talks from "./talks/Talks";
 import Podcast from "./podcast/Podcast";
 import Education from "./education/Education";
+import Publication from "./publications/Publication";
 import ScrollToTopButton from "./topbutton/Top";
 import Twitter from "./twitter-embed/twitter";
 import Profile from "./profile/Profile";
@@ -20,6 +21,8 @@ import {splashScreen} from "../portfolio";
 import {StyleProvider} from "../contexts/StyleContext";
 import {useLocalStorage} from "../hooks/useLocalStorage";
 import "./Main.scss";
+
+import {publicationInfo, projectsInfo, experiencesInfo, honorInfo, thesesInfo} from "../portfolio";
 
 const Main = () => {
   const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
@@ -55,6 +58,11 @@ const Main = () => {
             <Skills />
             <StackProgress />
             <Education />
+            <Publication info={projectsInfo}/>
+            <Publication info={experiencesInfo}/>
+            <Publication info={honorInfo}/>
+            <Publication info={publicationInfo}/>
+            <Publication info={thesesInfo}/>
             <WorkExperience />
             <Projects />
             <StartupProject />

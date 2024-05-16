@@ -127,6 +127,19 @@ export default function socialMedia() {
           <span></span>
         </a>
       ) : null}
+
+      {socialMediaLinks.line ? (
+        <a
+          href={socialMediaLinks.line}
+          className="icon-button line"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fa-brands fa-line"></i>
+          <span></span>
+        </a>
+      ) : null}
+
     </div>
   );
 }
