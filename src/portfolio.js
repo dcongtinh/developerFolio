@@ -60,7 +60,7 @@ const skillsSection = {
       "🤖 Robotics, Computer games, AWS DeepRacer"
     ),
     emoji(
-      "🧠 BioInformatics, Medical Image Processing"
+      "🧠 LLMs in Biomedical & Healthcare Informatics"
     )
   ],
 
