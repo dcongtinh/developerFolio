@@ -25,7 +25,7 @@ export default function GithubProfileCard({prof}) {
             {prof.bio && <h2 className="bio-text">"{emoji(String(prof.bio))}"</h2>}
             <div className="location-div">
               <span className="desc-prof">
-              {emoji('👨‍💻')} {ReactHtmlParser("<b>Dao Cong Tinh (桃公信)</b>")}
+              {emoji('👨‍💻')} {ReactHtmlParser("<b>Dao Cong Tinh (桃公信, TonyD)</b>")}
               </span>
             </div>
             <div className="location-div">
@@ -40,7 +40,7 @@ export default function GithubProfileCard({prof}) {
             </div>
             <div className="location-div">
               <span className="desc-prof">
-                {emoji('📬 dcongtinh.ee10@nycu.edu.tw')}
+                {emoji('📬 dcongtinh@gmail.com │ dcongtinh.ee10@nycu.edu.tw')}
               </span>
             </div>
             {prof.location !== null && (

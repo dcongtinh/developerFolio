@@ -3,6 +3,10 @@
 .footer-text {
   text-align: center;
   color: $subTitle !important;
+  a {
+    text-decoration: none;
+    color: $link;
+  }
 }
 
 .dark-mode {

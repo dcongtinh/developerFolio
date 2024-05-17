@@ -52,6 +52,10 @@
 .desc-prof {
   line-height: 45px;
   font-size: 19px;
+  a {
+    text-decoration: none;
+    color: $link;
+  }
 }
 
 .subTitle {
