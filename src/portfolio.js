@@ -195,18 +195,19 @@ const projectsInfo = {
   sectionName: "Projects",
   papers: [
     {
-      schoolName: "Research:",
+      // schoolName: "Research:",
       descBullets: [
-        "<i>Hệ thống thông tin quản lý thực hành tích hợp điểm danh bằng nhận diện khuôn mặt</i>. <b>Practice Management Information System Integrating Attendance With Face Recognition</b> (article in Vietnamese with an abstract in English). (06/2020 - 12/2020).",
-        "<i>Sử dụng phương pháp binning để nâng cao hiệu quả chẩn đoán bệnh của các mô hình máy học trên dữ liệu Metagenomic</i>. <b>Using binning method to improve disease diagnosis efficiency of machine learning models on Metagenomic data</b> (article in Vietnamese with an abstract in English). (12/2019 - 04/2020)."
+        "2024/04 – Now:     <b>Large Language Multimodal Models For 5-Year Chronic Disease Cohort Prediction Using EHR Data</b>. Far Eastern Memorial Hospital & National Yang Ming Chiao Tung University.",
+        "2020/06 – 2020/12: <b>Practice Management Information System Integrating Attendance With Face Recognition</b>. <i>Hệ thống thông tin quản lý thực hành tích hợp điểm danh bằng nhận diện khuôn mặt</i> (article in Vietnamese with an abstract in English).",
+        "2019/12 – 2020/04: <b>Using binning method to improve disease diagnosis efficiency of machine learning models on Metagenomic data</b>. <i>Sử dụng phương pháp binning để nâng cao hiệu quả chẩn đoán bệnh của các mô hình máy học trên dữ liệu Metagenomic</i> (article in Vietnamese with an abstract in English)."
       ]
     },
-    {
-      schoolName: "Others:",
-      descBullets: [
-        "1-year experience in front-end web (jQuery & React JS) and mobile apps (React Native). (Dec 2018 – Dec 2019)."
-      ]
-    }
+    // {
+    //   schoolName: "Others:",
+    //   descBullets: [
+    //     "2018/12 – 2019/12: 1-year experience in front-end web (jQuery & React JS) and mobile apps (React Native)."
+    //   ]
+    // }
   ]
 };
 
@@ -228,7 +229,7 @@ const experiencesInfo = {
     {
       schoolName: "Work",
       descBullets: [
-        "1-year experience in front-end web (jQuery & React JS) and mobile apps (React Native). (Dec 2018 – Dec 2019)."
+        "2018/12 – 2019/12: 1-year experience in front-end web (jQuery & React JS) and mobile apps (React Native)."
       ]
     }
   ]
@@ -322,21 +323,21 @@ const honorInfo = {
     {
       // schoolName: "Conference Papers:",
       descBullets: [
-        "NSTC Graduate Research Fellowship Pilot Program (Ph.D degree) - Advisor: Wen-Chih Peng",
-        "AWS DeepRacer League Championship Finals 2023 in Las Vegas",
-        "Certificate of Full Scholarship of National Yang Ming Chiao Tung University",
-        "Odon Vallet Fellowship Certificate in 2021",
-        "Certificate of Completion Summer School on Advances in Data Science and Artificial Intelligence 2021",
-        "Certificate of Completion KIT Bio Tech & IT Online Spring School 2021",
-        "Scholarship for the Best Student of the Academic Year 2017-2021",
-        "Certificate of Achievement the ASIA Vietnam ICPC Regional Contest from 2017-2020",
-        "Third Prize at the 2020 ICPC Vietnam Southern Provincial Programming Contest",
-        "Exchange Student in Chulalongkorn University, Thailand in 2019",
-        "Third Prize: Olympiad for IT student (specialized), 2018",
-        "Second Prize: Olympiad for IT student (non-specialized), 2017",
-        "Second Prize: Young Informatics Innovative Software, 2016",
-        "Silver/Bronze Medal Olympic 30.4, 2015/2016",
-        "Microsoft Certified Application Specialist: Using Microsoft Office Excel 2013",
+        "2024 – 2027: NSTC Graduate Research Fellowship Pilot Program (Ph.D degree) - Advisor: Wen-Chih Peng",
+        "2023: AWS DeepRacer League Championship Finals in Las Vegas",
+        "2022 – 2024: Certificate of Full Scholarship of National Yang Ming Chiao Tung University",
+        "2021: Odon Vallet Fellowship Certificate",
+        "2021: Certificate of Completion Summer School on Advances in Data Science and Artificial Intelligence",
+        "2021: Certificate of Completion KIT Bio Tech & IT Online Spring School",
+        "2017 – 2021: Scholarship for the Best Student of the Academic Year",
+        "2017 – 2020: Certificate of Achievement the ASIA Vietnam ICPC Regional Contest",
+        "2020: Third Prize at the 2020 ICPC Vietnam Southern Provincial Programming Contest",
+        "2019: Exchange Student in Chulalongkorn University, Thailand",
+        "2018: Third Prize: Olympiad for IT student (specialized)",
+        "2017: Second Prize: Olympiad for IT student (non-specialized)",
+        "2016: Second Prize: Young Informatics Innovative Software",
+        "2016: Microsoft Certified Application Specialist: Using Microsoft Office Excel 2013",
+        "2015 – 2016: Silver/Bronze Medal Olympic 30.4"
       ]
     },
   ]
