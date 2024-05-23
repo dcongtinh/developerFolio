@@ -26,17 +26,23 @@ export default function EducationCard({school}) {
         <div className="education-card">
           {school.logo && (
             <div className="education-card-left">
-              <img
-                crossOrigin={"anonymous"}
-                ref={imgRef}
-                className="education-roundedimg"
-                src={school.logo}
-                alt={school.schoolName}
-              />
+              <a href={school.website} target="_blank">
+                <img
+                  crossOrigin={"anonymous"}
+                  ref={imgRef}
+                  className="education-roundedimg"
+                  src={school.logo}
+                  alt={school.schoolName}
+                />
+              </a>
             </div>
           )}
           <div className="education-card-right">
-            <h5 className="education-text-school">{school.schoolName}</h5>
+            <h5 className="education-text-school">
+              <a href={school.website} target="_blank">
+                {school.schoolName}
+              </a>
+            </h5>
 
             <div className="education-text-details">
               <h5

@@ -157,6 +157,7 @@ const educationInfo = {
       logo: require("./assets/images/nycu_logo.jpeg"),
       subHeader: "Master of Science in Computer Science",
       duration: "February 2022 - April 2024",
+      website: "https://www.nycu.edu.tw/nycu/en/index",
       desc: 'Advisor: <a href="https://icwu307.github.io/" target="_blank">Distinguished Professor I-Chen Wu</a></br>\
             <span style="display: block; margin-top: 0.5rem;">Thesis: <i>Derivative-based Regularization for Action Smoothness in Deep Reinforcement Learning Robotics Control</i></span>',
       // descBullets: [
@@ -169,15 +170,17 @@ const educationInfo = {
       logo: require("./assets/images/CTU_Logo.jpeg"),
       subHeader: "Bachelor of Engineering in Computer Science",
       duration: "September 2017 - September 2021",
+      website: "https://en.ctu.edu.vn/",
       desc: 'Advisor: <a href="https://www.cit.ctu.edu.vn/~pnkhang/cv-vi.html" target="_blank">Associate Professor Pham Nguyen Khang</a></br>\
       <span style="display: block; margin-top: 0.5rem;">Thesis: <i>Action Recognition and Its Application For Controlling Video Game via Digital Camera</i></span>',
       // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     },
     {
-      schoolName: "Ly Tu Trong Specialized High School",
+      schoolName: "Ly Tu Trong High School for the Gifted",
       logo: require("./assets/images/LTT_Logo.jpeg"),
       subHeader: "High School Diplomates in Informatics",
       duration: "2014 - 2017",
+      website: "https://chuyenlytutrong.edu.vn/"
       // desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
       // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
@@ -231,6 +234,20 @@ const experiencesInfo = {
   ]
 };
 
+const reposInfo = [
+  {
+    node: {
+      description: "ACMNOTEBOOK",
+      diskUsage: 122,
+      forkCount: 0,
+      id: "MDEwOlJlcG9zaXRvcnkxNTU0MTQ5MjE=",
+      name: "ACMNOTEBOOK",
+      primaryLanguage: {name: 'C++', color: '#f34b7d'},
+      stargazers: {totalCount: 0},
+      url: "https://github.com/dcongtinh/ACMNOTEBOOK"
+    }
+  }
+]
 // Publication Section
 
 const publicationInfo = {
@@ -575,6 +592,7 @@ export {
   honorInfo,
   experiencesInfo,
   projectsInfo,
+  reposInfo,
   techStack,
   workExperiences,
   openSource,
