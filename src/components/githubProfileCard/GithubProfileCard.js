@@ -30,7 +30,7 @@ export default function GithubProfileCard({prof}) {
             </div>
             <div className="location-div">
               <span className="desc-prof">
-                {emoji('💡')} {ReactHtmlParser('Advanced Database System Laboratory (<a href="https://sites.google.com/view/nycu-adsl">ADSL</a>) Lab')}
+                {emoji('💡')} {ReactHtmlParser('Advanced Database System Laboratory (<a href="https://lab-adsl-website.vercel.app/">ADSL</a>) Lab')}
               </span>
             </div>
             <div className="location-div">
