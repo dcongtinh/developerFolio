@@ -259,9 +259,12 @@ const publicationInfo = {
     {
       schoolName: "Conference Papers:",
       descBullets: [
-        "I Lee, Hoang-Giang Cao, <u>Cong-Tinh Dao</u>, and I-Chen Wu. (2024). \
-        <a>Gradient-based Regularization for Action Smoothness in Robotic Control with Reinforcement Learning</a>. \
-        <i>2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</i>. (Under Submission).",
+        "Phan, T. M. N., <u>Dao, C. T.</u>, Wu, C.W., Wang, J.Z., Liu, S., Ding, J.E., Restrepo. D., Liu F., Hung, F.M., and Peng, W.C. (2024, October). \
+        <a href='#'>MEDFuse: Multimodal EHR Data Fusion with Masked Lab-Test Modeling and Large Language Models.</a> \
+        <i>In Proceedings of the 33rd ACM International Conference on Information and Knowledge Management (CIKM)</i>. (Accepted).",
+        "Lee, I., Cao, H.G., <u>Dao, C.T.</u>, Chen, Y.C., and Wu, I.C. (2024). \
+        <a href='#'>Gradient-based Regularization for Action Smoothness in Robotic Control with Reinforcement Learning</a>. \
+        <i>2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</i>. (Accepted).",
         "Phan, T. M. N., <u>Dao, C. T.</u>, Phan, T. T., & Nguyen, H. T. (2023, October). \
         <a href='https://doi.org/10.1007/978-981-99-7649-2_2' target='_blank'> SDCANet: Enhancing Symptoms-Driven Disease Prediction with CNN-Attention Networks </a>. \
         In <i>International Conference on Intelligent Systems and Data Science</i> (pp. 15-30).",
