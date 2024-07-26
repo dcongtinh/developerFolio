@@ -63,26 +63,11 @@ function Header() {
               <a href="#education">Education</a>
             </li>
           )}
-          {viewProjects && (
-            <li>
-              <a href="#projects">Projects</a>
-            </li>
-          )}
-          {viewExperiences && (
-            <li>
-              <a href="#experiences">Experiences</a>
-            </li>
-          )}
           {viewHonors && (
             <li>
               <a href="#honors">Achievements</a>
             </li>
           )}
-          {/* {viewExperience && (
-            <li>
-              <a href="#experience">Work Experiences</a>
-            </li>
-          )} */}
           {viewPublications && (
             <li>
               <a href="#publications">Publications</a>
@@ -93,6 +78,23 @@ function Header() {
               <a href="#theses">Theses</a>
             </li>
           )}
+          {viewProjects && (
+            <li>
+              <a href="#projects">Projects</a>
+            </li>
+          )}
+          {viewExperiences && (
+            <li>
+              <a href="#experiences">Experiences</a>
+            </li>
+          )}
+
+          {/* {viewExperience && (
+            <li>
+              <a href="#experience">Work Experiences</a>
+            </li>
+          )} */}
+
           {viewOpenSource && (
             <li>
               <a href="#opensource">Open Source</a>

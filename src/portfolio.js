@@ -155,8 +155,16 @@ const educationInfo = {
     {
       schoolName: "National Yang Ming Chiao Tung University",
       logo: require("./assets/images/nycu_logo.jpeg"),
+      subHeader: "PhD in Computer Science",
+      duration: "September 2024 – Now",
+      website: "https://www.nycu.edu.tw/nycu/en/index",
+      desc: 'Advisor: <a href="https://sites.google.com/site/wcpeng/" target="_blank">Professor Wen-Chih Peng</a></br>',
+    },
+    {
+      schoolName: "National Yang Ming Chiao Tung University",
+      logo: require("./assets/images/nycu_logo.jpeg"),
       subHeader: "Master of Science in Computer Science",
-      duration: "February 2022 - April 2024",
+      duration: "February 2022 – April 2024",
       website: "https://www.nycu.edu.tw/nycu/en/index",
       desc: 'Advisor: <a href="https://icwu307.github.io/" target="_blank">Distinguished Professor I-Chen Wu</a></br>\
             <span style="display: block; margin-top: 0.5rem;">Thesis: <i>Derivative-based Regularization for Action Smoothness in Deep Reinforcement Learning Robotics Control</i></span>',
@@ -169,7 +177,7 @@ const educationInfo = {
       schoolName: "Can Tho University",
       logo: require("./assets/images/CTU_Logo.jpeg"),
       subHeader: "Bachelor of Engineering in Computer Science",
-      duration: "September 2017 - September 2021",
+      duration: "September 2017 – September 2021",
       website: "https://en.ctu.edu.vn/",
       desc: 'Advisor: <a href="https://www.cit.ctu.edu.vn/~pnkhang/cv-vi.html" target="_blank">Associate Professor Pham Nguyen Khang</a></br>\
       <span style="display: block; margin-top: 0.5rem;">Thesis: <i>Action Recognition and Its Application For Controlling Video Game via Digital Camera</i></span>',
@@ -179,7 +187,7 @@ const educationInfo = {
       schoolName: "Ly Tu Trong High School for the Gifted",
       logo: require("./assets/images/LTT_Logo.jpeg"),
       subHeader: "High School Diplomates in Informatics",
-      duration: "2014 - 2017",
+      duration: "2014 – 2017",
       website: "https://chuyenlytutrong.edu.vn/"
       // desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
       // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]

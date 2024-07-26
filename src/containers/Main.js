@@ -58,10 +58,10 @@ const Main = () => {
             <Skills />
             <StackProgress />
             <Education />
-            <Publication info={projectsInfo}/>
-            <Publication info={experiencesInfo}/>
             <Publication info={honorInfo}/>
             <Publication info={publicationInfo}/>
+            <Publication info={projectsInfo}/>
+            <Publication info={experiencesInfo}/>
             <Publication info={thesesInfo}/>
             <WorkExperience />
             <Projects />
