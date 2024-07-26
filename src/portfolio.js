@@ -26,7 +26,7 @@ const greeting = {
     "A Ph.D student in Computer Science 👨‍💻 specializing in Deep Reinforcement Learning, LLMs, and Biomedical & Healthcare Informatics. As a competitive programmer and tech enthusiast, I love exploring new technologies to solve real-life problems 🚀."
   ),
   resumeLink:
-    "https://sites.google.com/view/dcongtinh", // Set to empty to hide the button
+    "https://scholar.google.com/citations?user=oWnVEfoAAAAJ", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 

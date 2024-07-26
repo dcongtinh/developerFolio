@@ -9,6 +9,8 @@ import Button from "../../components/button/Button";
 import {illustration, greeting} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
 
+import ReactHtmlParser from 'react-html-parser';
+
 export default function Greeting() {
   const {isDark} = useContext(StyleContext);
   if (!greeting.displayGreeting) {
@@ -47,7 +49,7 @@ export default function Greeting() {
                     // download="Resume.pdf"
                     className="download-link-button"
                   >
-                    <Button text="My GG Sites" />
+                    <Button text={ReactHtmlParser("<i class='fa-brands fa-google-scholar'></i> My GG Scholar")} />
                   </a>
                 )}
               </div>
