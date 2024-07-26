@@ -23,7 +23,7 @@ const greeting = {
   username: "Dao Cong Tinh",
   title: "Hi, I'm TonyD",
   subTitle: emoji(
-    "A dedicated and inquisitive Computer Science researcher 👨‍💻 specializing in Deep Reinforcement Learning, Robotics, Autonomous Driving (AWS DeepRacer), and Medical Image Processing. As a competitive programmer and tech enthusiast, I love exploring new technologies to solve real-life problems 🚀."
+    "A Ph.D student in Computer Science 👨‍💻 specializing in Deep Reinforcement Learning, LLMs, and Biomedical & Healthcare Informatics. As a competitive programmer and tech enthusiast, I love exploring new technologies to solve real-life problems 🚀."
   ),
   resumeLink:
     "https://sites.google.com/view/dcongtinh", // Set to empty to hide the button
@@ -259,16 +259,16 @@ const publicationInfo = {
     {
       schoolName: "Conference Papers:",
       descBullets: [
-        "Phan, T. M. N., <u>Dao, C. T.</u>, Wu, C.W., Wang, J.Z., Liu, S., Ding, J.E., Restrepo. D., Liu F., Hung, F.M., and Peng, W.C. (2024, October). \
-        <a href='#'>MEDFuse: Multimodal EHR Data Fusion with Masked Lab-Test Modeling and Large Language Models.</a> \
-        <i>In Proceedings of the 33rd ACM International Conference on Information and Knowledge Management (CIKM)</i>. (Accepted).",
-        "Lee, I., Cao, H.G., <u>Dao, C.T.</u>, Chen, Y.C., and Wu, I.C. (2024). \
-        <a href='#'>Gradient-based Regularization for Action Smoothness in Robotic Control with Reinforcement Learning</a>. \
+        "Phan, T. M. N.*, <u>Dao, C. T.*</u>, Wu, C.W., Wang, J.Z., Liu, S., Ding, J.E., Restrepo. D., Liu F., Hung, F.M., and Peng, W.C. (2024, October). \
+        <a href='https://arxiv.org/abs/2407.12309' target='_blank'>MEDFuse: Multimodal EHR Data Fusion with Masked Lab-Test Modeling and Large Language Models.</a> \
+        <i>In Proceedings of the 33rd ACM International Conference on Information and Knowledge Management (CIKM)</i>. (*Equal contribution )(Accepted).",
+        "Lee, I., Cao, H. G., <u>Dao, C. T.</u>, Chen, Y. C., and Wu, I. C. (2024). \
+        <a href='https://arxiv.org/abs/2407.04315' target='_blank'>Gradient-based Regularization for Action Smoothness in Robotic Control with Reinforcement Learning</a>. \
         <i>2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</i>. (Accepted).",
         "Phan, T. M. N., <u>Dao, C. T.</u>, Phan, T. T., & Nguyen, H. T. (2023, October). \
         <a href='https://doi.org/10.1007/978-981-99-7649-2_2' target='_blank'> SDCANet: Enhancing Symptoms-Driven Disease Prediction with CNN-Attention Networks </a>. \
         In <i>International Conference on Intelligent Systems and Data Science</i> (pp. 15-30).",
-        "<u>Dao, T. C.</u>, & Nguyen, H. T. (2021). \
+        "<u>Dao, C. T.</u>, & Nguyen, H. T. (2021). \
         <a href='https://doi.org/10.1007/978-981-16-8062-5_3' target='_blank'>Human mobility prediction using k-latest check-ins</a>.\
         In <i>Future Data and Security Engineering. Big Data, Security and Privacy, Smart City and Industry 4.0 Applications: 8th International Conference, FDSE 2021, Virtual Event, November 24–26, 2021, Proceedings 8</i> (pp. 36-49).",
         "Nguyen, T. H., <u>Dao, C. T.</u>, Phan, N. M. T., Nguyen, T. N. C., Phan, T. T., & Pham, H. N. (2020). \
@@ -282,16 +282,16 @@ const publicationInfo = {
     {
       schoolName: "Journal Papers:",
       descBullets: [
-        "Nguyen, H. T., <u>Dao, T. C.</u>, Phan, T. M. N., & Phan, T. T. (2022). \
+        "Nguyen, H. T., <u>Dao, C. T.</u>, Phan, T. M. N., & Phan, T. T. (2022). \
         <a href='https://doi.org/10.1504/IJISTA.2022.10050825' target='_blank'>Fake face detection in video using shallow deep learning architectures</a>. \
         <i>International Journal of Intelligent Systems Technologies and Applications</i>, 20(6), 469-486.",
-        "Nguyen, H. T., Nguyen, C. N. T., Phan, T. M. N., & <u>Dao, T. C.</u> (2021). \
+        "Nguyen, H. T., Nguyen, C. N. T., Phan, T. M. N., & <u>Dao, C. T.</u> (2021). \
         <a href='https://doi.org/10.5573/IEIESPC.2021.10.2.101' target='_blank'>Pleural Effusion Diagnosis using Local Interpretable Model-agnostic Explanations and Convolutional Neural Network</a>. \
         <i>IEIE Transactions on Smart Processing & Computing</i>, 10(2), 101-108.",
-        "Nguyen, H. T., Phan, T. T., <u>Dao, T. C.</u>, Phan, T. M. N., Ta, P. V. D., Nguyen, C. N. T., ... & Huynh, H. X. (2021). \
+        "Nguyen, H. T., Phan, T. T., <u>Dao, C. T.</u>, Phan, T. M. N., Ta, P. V. D., Nguyen, C. N. T., ... & Huynh, H. X. (2021). \
         <a href='https://doi.org/10.5614/j.eng.technol.sci.2021.53.1.9' target='_blank'>Gene Family Abundance Visualization based on Feature Selection Combined Deep Learning to Improve Disease Diagnosis</a>. \
         <i>Journal of Engineering & Technological Sciences</i>, 53(1).",
-        "Phan, T. T., Ta, P. V. D., Phan, T. M. N., Nguyen, C. N. T., <u>Dao, T. C.</u>, Pham, N. H., & Nguyen, H. T. (2020). \
+        "Phan, T. T., Ta, P. V. D., Phan, T. M. N., Nguyen, C. N. T., <u>Dao, C. T.</u>, Pham, N. H., & Nguyen, H. T. (2020). \
         <a href='http://dx.doi.org/10.37569/DalatUniversity.10.2.646%282020%29' target='_blank'>Evaluation of Assistance Tools for Diagnosis of Diseases by Approaching to Personalized Medicine on Metagenomic Data</a>. \
         <i>Dalat University Journal of Science</i>, 117-144."
       ]

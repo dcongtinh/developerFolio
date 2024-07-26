@@ -143,4 +143,12 @@
     max-width: 80%;
     margin: auto;
   }
+  .education-text-desc {
+    text-align: left;
+    li {
+      a {
+        text-align: left;
+      }
+    }
+  }
 }
