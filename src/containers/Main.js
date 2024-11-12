@@ -11,7 +11,8 @@ import Blogs from "./blogs/Blogs";
 import Footer from "../components/footer/Footer";
 import Talks from "./talks/Talks";
 import Podcast from "./podcast/Podcast";
-import Education from "./education/Education";
+// import Education from "./education/Education";
+import Timeline from "./education/Timeline";
 import Publication from "./publications/Publication";
 import ScrollToTopButton from "./topbutton/Top";
 import Twitter from "./twitter-embed/twitter";
@@ -57,7 +58,7 @@ const Main = () => {
             <Greeting />
             <Skills />
             <StackProgress />
-            <Education />
+            <Timeline />
             <Publication info={publicationInfo}/>
             <Publication info={honorInfo}/>
             <Publication info={projectsInfo}/>

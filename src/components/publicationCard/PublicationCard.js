@@ -1,12 +1,10 @@
-import React, {createRef, useContext} from "react";
+import React, {useContext} from "react";
 import {Fade, Slide} from "react-reveal";
 import "./PublicationCard.scss";
 import StyleContext from "../../contexts/StyleContext";
 import ReactHtmlParser from 'react-html-parser';
 
 export default function PublicationCard({paper}) {
-  const imgRef = createRef();
-
   const GetDescBullets = ({descBullets}) => {
     return descBullets
       ? descBullets.map((item, i) => (

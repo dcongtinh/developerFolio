@@ -46,6 +46,7 @@ export default function Greeting() {
                     // href={require("./resume.pdf")}
                     href={greeting.resumeLink}
                     target="_blank"
+                    rel="noreferrer"
                     // download="Resume.pdf"
                     className="download-link-button"
                   >

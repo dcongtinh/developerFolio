@@ -26,7 +26,7 @@ export default function EducationCard({school}) {
         <div className="education-card">
           {school.logo && (
             <div className="education-card-left">
-              <a href={school.website} target="_blank">
+              <a href={school.website} target="_blank" rel="noreferrer">
                 <img
                   crossOrigin={"anonymous"}
                   ref={imgRef}
@@ -39,7 +39,7 @@ export default function EducationCard({school}) {
           )}
           <div className="education-card-right">
             <h5 className="education-text-school">
-              <a href={school.website} target="_blank">
+              <a href={school.website} target="_blank" rel="noreferrer">
                 {school.schoolName}
               </a>
             </h5>

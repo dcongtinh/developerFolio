@@ -40,7 +40,7 @@
   height: 28px;
   a {
     text-decoration: none;
-    color: #2296F3;
+    color: #2296f3;
     text-align: justify;
   }
 }
@@ -91,7 +91,29 @@
   margin-top: 0.5rem;
 }
 
-/* Media Query */
+.vertical-timeline-element-date {
+  // margin: 0 4px;
+  font-size: 19px !important;
+}
+.vertical-timeline {
+  width: 100% !important;
+  max-width: 2000px !important;
+}
+.vertical-timeline-element-content {
+  padding: 1em !important;
+}
+@media only screen and (min-width: 1170px) and (max-width: 1380px) {
+  .education-roundedimg {
+    left: -2px !important;
+    top: -2px !important;
+  }
+}
+@media (max-width: 1170px) {
+  .education-roundedimg {
+    left: -12px !important;
+    top: -12px !important;
+  }
+}
 
 @media (max-width: 1380px) {
   .education-card {
@@ -115,11 +137,8 @@
   .education-text-duration {
     font-size: 16px;
   }
-  .education-roundedimg {
-    width: 4rem;
-    height: 4rem;
-    margin-bottom: 0.5rem;
-    margin-right: 0px;
+  .vertical-timeline-element-content {
+    padding: 12px 1em !important;
   }
 }
 
@@ -139,6 +158,8 @@
     height: 4rem;
     margin-bottom: 1rem;
     margin-right: 0;
+    left: -12px !important;
+    top: -24px !important;
   }
   .education-text-bullets > ul {
     max-width: 80%;
@@ -153,5 +174,11 @@
     a {
       text-align: left !important;
     }
+  }
+}
+
+@media (min-width: 1920px) {
+  .vertical-timeline {
+    margin: 0 8% !important;
   }
 }
