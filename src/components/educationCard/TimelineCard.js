@@ -4,6 +4,9 @@ import StyleContext from "../../contexts/StyleContext";
 import ReactHtmlParser from "react-html-parser";
 import {VerticalTimelineElement} from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
+import StarIcon from "@material-ui/icons/Star";
+import WorkIcon from "@material-ui/icons/Work";
+import SchoolIcon from "@material-ui/icons/School";
 
 export default function EducationCard({school}) {
   const imgRef = createRef();
@@ -54,9 +57,15 @@ export default function EducationCard({school}) {
         >
           {school.subHeader}
         </h5>
-        <p className="education-text-desc" style={{fontSize: "19px"}}>
-          {ReactHtmlParser(school.desc)}
-        </p>
+        {school.desc && (
+          <p className="education-text-desc" style={{fontSize: "19px"}}>
+            {ReactHtmlParser(school.desc)}
+          </p>
+        )}
+        <div className="mini-icon" title={school.status}>
+        {school.status == 'work' ? <WorkIcon/> : <SchoolIcon/>}
+        </div>
+        
       </div>
     </VerticalTimelineElement>
   );

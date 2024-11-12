@@ -150,7 +150,7 @@ https://fontawesome.com/icons?d=gallery */
 const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   id: 'education',
-  sectionName: "Education",
+  sectionName: "Timeline",
   schools: [
     {
       schoolName: "National Yang Ming Chiao Tung University",
@@ -159,6 +159,18 @@ const educationInfo = {
       duration: "September 2024 – Now",
       website: "https://www.nycu.edu.tw/nycu/en/index",
       desc: 'Advisor: <a href="https://sites.google.com/site/wcpeng/" target="_blank">Professor Wen-Chih Peng</a></br>',
+      status: "student"
+    },
+    {
+      schoolName: "Can Tho University",
+      logo: require("./assets/images/CTU_Logo.jpeg"),
+      subHeader: "Lecturer, Department of Computer Science",
+      duration: "September 2024 – Now",
+      website: "https://en.ctu.edu.vn/",
+      status: "work"
+      // desc: 'Advisor: <a href="https://www.cit.ctu.edu.vn/~pnkhang/cv-vi.html" target="_blank">Associate Professor Pham Nguyen Khang</a></br>\
+      // <span style="display: block; margin-top: 0.5rem;">Thesis: <i>Action Recognition and Its Application For Controlling Video Game via Digital Camera</i></span>',
+      // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     },
     {
       schoolName: "National Yang Ming Chiao Tung University",
@@ -168,10 +180,7 @@ const educationInfo = {
       website: "https://www.nycu.edu.tw/nycu/en/index",
       desc: 'Advisor: <a href="https://icwu307.github.io/" target="_blank">Distinguished Professor I-Chen Wu</a></br>\
             <span style="display: block; margin-top: 0.5rem;">Thesis: <i>Derivative-based Regularization for Action Smoothness in Deep Reinforcement Learning Robotics Control</i></span>',
-      // descBullets: [
-      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      // ]
+      status: "student"
     },
     {
       schoolName: "Can Tho University",
@@ -181,14 +190,15 @@ const educationInfo = {
       website: "https://en.ctu.edu.vn/",
       desc: 'Advisor: <a href="https://www.cit.ctu.edu.vn/~pnkhang/cv-vi.html" target="_blank">Associate Professor Pham Nguyen Khang</a></br>\
       <span style="display: block; margin-top: 0.5rem;">Thesis: <i>Action Recognition and Its Application For Controlling Video Game via Digital Camera</i></span>',
-      // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      status: "student"
     },
     {
       schoolName: "Ly Tu Trong High School for the Gifted",
       logo: require("./assets/images/LTT_Logo.jpeg"),
       subHeader: "High School Diplomates in Informatics",
       duration: "2014 – 2017",
-      website: "https://chuyenlytutrong.edu.vn/"
+      website: "https://chuyenlytutrong.edu.vn/",
+      status: "student"
       // desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
       // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }

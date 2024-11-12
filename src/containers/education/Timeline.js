@@ -13,8 +13,8 @@ import StarIcon from "@material-ui/icons/Star";
 export default function Education() {
   if (educationInfo.display) {
     return (
-      <div className="education-section" id="education">
-        <h1 className="education-heading">Education</h1>
+      <div className="education-section" id="timeline">
+        <h1 className="education-heading">Timeline</h1>
         <div className="education-card-container">
           <div className="education-card" style={{paddingBottom: "16px"}}>
             <VerticalTimeline lineColor="#868e96">

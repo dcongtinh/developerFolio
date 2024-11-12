@@ -40,7 +40,7 @@ export default function GithubProfileCard({prof}) {
             </div>
             <div className="location-div">
               <span className="desc-prof">
-                {emoji('📬')} {ReactHtmlParser('<a href="mailto:dcongtinh@gmail.com">dcongtinh@gmail.com</a>')} │ {ReactHtmlParser('<a href="mailto:dcongtinh.ee10@nycu.edu.tw">dcongtinh.ee10@nycu.edu.tw</a>')}
+                {emoji('📬')} {ReactHtmlParser('<a href="mailto:dcongtinh@gmail.com">dcongtinh@gmail.com</a>')} │ {ReactHtmlParser('<a href="mailto:dctinh@ctu.edu.vn">dctinh@ctu.edu.vn</a>')} | {ReactHtmlParser('<a href="mailto:dcongtinh.ee13@nycu.edu.tw">dcongtinh.ee13@nycu.edu.tw</a>')}
               </span>
             </div>
             {prof.location !== null && (
