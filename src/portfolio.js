@@ -277,6 +277,9 @@ const publicationInfo = {
     {
       schoolName: "Conference Papers:",
       descBullets: [
+        "Restrepo, D., Wu, C., Tang, Z., Shuai, Z., Phan, T. N. M., Ding, J. E., <u>Dao, C. T.</u>, ... & Nakayama, L. F. (2024). \
+        <a href='https://arxiv.org/abs/2412.14304' target='_blank'>Multi-OphthaLingua: A Multilingual Benchmark for Assessing and Debiasing LLM Ophthalmological QA in LMICs</a>. \
+        <i>In AAAI 2025 Artificial Intelligence for Social Impact Track (AAAI-AISI 2025)</i>. (Accepted).",
         "Tseng, Y. C., <u>Dao, C. T.</u>, Kuo, C. W., Peng, W. C., Hung, F. M., & Hung, C. C. (2024, December). \
         <a href='#' target='_blank'>Predicting 24–Hour Emergency Room Revisits: A Concept Bottleneck Approach</a>. \
         <i>In International Conference on Technologies and Applications of Artificial Intelligence (TAAI)</i>. (Accepted).",
