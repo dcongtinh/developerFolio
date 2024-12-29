@@ -286,9 +286,9 @@ const publicationInfo = {
         "Phan, T. M. N.*, <u>Dao, C. T.*</u>, Wu, C. W., Wang, J. Z., Liu, S., Ding, J. E., Restrepo. D., Liu F., Hung, F. M., & Peng, W. C. (2024, October). \
         <a href='https://doi.org/10.1145/3627673.3679962' target='_blank'>MEDFuse: Multimodal EHR Data Fusion with Masked Lab-Test Modeling and Large Language Models</a>. \
         <i>In Proceedings of the 33rd ACM International Conference on Information and Knowledge Management (CIKM)</i> (pp. 3974–3978). <small>(*Equal contribution)</small>",
-        "Lee, I., Cao, H. G., <u>Dao, C. T.</u>, Chen, Y. C., & Wu, I. C. (2024). \
-        <a href='https://arxiv.org/abs/2407.04315' target='_blank'>Gradient-based Regularization for Action Smoothness in Robotic Control with Reinforcement Learning</a>. \
-        <i>2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</i>. (Accepted).",
+        "Lee, I., Cao, H. G., <u>Dao, C. T.</u>, Chen, Y. C., & Wu, I. C. (2024, October). \
+        <a href='https://doi.org/10.1109/IROS58592.2024.10801464' target='_blank'>Gradient-based Regularization for Action Smoothness in Robotic Control with Reinforcement Learning</a>. \
+        <i>In 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) (pp. 603-610). IEEE</i>.",
         "Phan, T. M. N., <u>Dao, C. T.</u>, Phan, T. T., & Nguyen, H. T. (2023, October). \
         <a href='https://doi.org/10.1007/978-981-99-7649-2_2' target='_blank'> SDCANet: Enhancing Symptoms-Driven Disease Prediction with CNN-Attention Networks</a>. \
         In <i>International Conference on Intelligent Systems and Data Science (ISDS)</i> (pp. 15–30).",
