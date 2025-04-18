@@ -25,8 +25,7 @@ const greeting = {
   subTitle: emoji(
     "A Ph.D student in Computer Science 👨‍💻 specializing in Deep Reinforcement Learning, LLMs, and Biomedical & Healthcare Informatics. As a competitive programmer and tech enthusiast, I love exploring new technologies to solve real-life problems 🚀."
   ),
-  resumeLink:
-    "https://scholar.google.com/citations?user=oWnVEfoAAAAJ", // Set to empty to hide the button
+  resumeLink: "https://scholar.google.com/citations?user=oWnVEfoAAAAJ", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -39,6 +38,7 @@ const socialMediaLinks = {
   // gitlab: "https://gitlab.com/dcongtinh",
   facebook: "https://www.facebook.com/dcongtinh",
   line: "Line ID: dcongtinh",
+  // orcid: "https://orcid.org/0000-0002-0777-6915",
   // medium: "https://medium.com/@dcongtinh",
   // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
@@ -52,16 +52,10 @@ const skillsSection = {
   title: "What I do",
   // subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
-    emoji(
-      "🤔 Algorithms, Competitive Programming"
-    ),
+    emoji("🤔 Algorithms, Competitive Programming"),
     emoji("🕹️ Reinforcement Learning (RL), DeepRL"),
-    emoji(
-      "🤖 Robotics, Computer games, AWS DeepRacer"
-    ),
-    emoji(
-      "🧠 LLMs in Biomedical & Healthcare Informatics"
-    )
+    emoji("🤖 Robotics, Computer games, AWS DeepRacer"),
+    emoji("🧠 LLMs in Biomedical & Healthcare Informatics")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -149,7 +143,7 @@ https://fontawesome.com/icons?d=gallery */
 
 const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
-  id: 'education',
+  id: "education",
   sectionName: "Timeline",
   schools: [
     {
@@ -219,7 +213,7 @@ const projectsInfo = {
         "2020/06 – 2020/12: <b>Practice Management Information System Integrating Attendance With Face Recognition</b>. <i>Hệ thống thông tin quản lý thực hành tích hợp điểm danh bằng nhận diện khuôn mặt</i> (article in Vietnamese with an abstract in English).",
         "2019/12 – 2020/04: <b>Using binning method to improve disease diagnosis efficiency of machine learning models on Metagenomic data</b>. <i>Sử dụng phương pháp binning để nâng cao hiệu quả chẩn đoán bệnh của các mô hình máy học trên dữ liệu Metagenomic</i> (article in Vietnamese with an abstract in English)."
       ]
-    },
+    }
     // {
     //   schoolName: "Others:",
     //   descBullets: [
@@ -261,12 +255,12 @@ const reposInfo = [
       forkCount: 0,
       id: "MDEwOlJlcG9zaXRvcnkxNTU0MTQ5MjE=",
       name: "ACMNOTEBOOK",
-      primaryLanguage: {name: 'C++', color: '#f34b7d'},
+      primaryLanguage: {name: "C++", color: "#f34b7d"},
       stargazers: {totalCount: 0},
       url: "https://github.com/dcongtinh/ACMNOTEBOOK"
     }
   }
-]
+];
 // Publication Section
 
 const publicationInfo = {
@@ -277,18 +271,20 @@ const publicationInfo = {
     {
       schoolName: "Conference Papers:",
       descBullets: [
-        "Restrepo, D., Wu, C., Tang, Z., Shuai, Z., Phan, T. N. M., Ding, J. E., <u>Dao, C. T.</u>, ... & Nakayama, L. F. (2024). \
+        "Hsu, H. L.*, <u>Dao, C. T.*</u>, Wang, L., Shuai, Z., Phan, T. N. M., Ding, J. E., ... & Wu, C. (2025). \
+        <a href='https://arxiv.org/abs/2503.17900' target='_blank'>MedPlan: A Two-Stage RAG-Based System for Personalized Medical Plan Generation</a>. arXiv preprint arXiv:2503.17900.  <small>(*Equal contribution)</small>",
+        "Restrepo, D., Wu, C., Tang, Z., Shuai, Z., Phan, T. N. M., Ding, J. E., <u>Dao, C. T.</u>, ... & Nakayama, L. F. (2025, April). \
         <a href='https://arxiv.org/abs/2412.14304' target='_blank'>Multi-OphthaLingua: A Multilingual Benchmark for Assessing and Debiasing LLM Ophthalmological QA in LMICs</a>. \
-        <i>In AAAI 2025 Artificial Intelligence for Social Impact Track (AAAI-AISI 2025)</i>. (Accepted).",
+        In <i>Proceedings of the AAAI Conference on Artificial Intelligence</i> (Vol. 39, No. 27, pp. 28321–28330).",
         "Tseng, Y. C., <u>Dao, C. T.</u>, Kuo, C. W., Peng, W. C., Hung, F. M., & Hung, C. C. (2024, December). \
-        <a href='#' target='_blank'>Predicting 24–Hour Emergency Room Revisits: A Concept Bottleneck Approach</a>. \
-        <i>In International Conference on Technologies and Applications of Artificial Intelligence (TAAI)</i>. (Accepted).",
+        <a href='https://taai2024.org/international-session/' target='_blank'>Predicting 24–Hour Emergency Room Revisits: A Concept Bottleneck Approach</a>. \
+        In <i>International Conference on Technologies and Applications of Artificial Intelligence (TAAI)</i>. (Accepted).",
         "Phan, T. M. N.*, <u>Dao, C. T.*</u>, Wu, C. W., Wang, J. Z., Liu, S., Ding, J. E., Restrepo. D., Liu F., Hung, F. M., & Peng, W. C. (2024, October). \
         <a href='https://doi.org/10.1145/3627673.3679962' target='_blank'>MEDFuse: Multimodal EHR Data Fusion with Masked Lab-Test Modeling and Large Language Models</a>. \
-        <i>In Proceedings of the 33rd ACM International Conference on Information and Knowledge Management (CIKM)</i> (pp. 3974–3978). <small>(*Equal contribution)</small>",
+        In <i>Proceedings of the 33rd ACM International Conference on Information and Knowledge Management (CIKM)</i> (pp. 3974–3978). <small>(*Equal contribution)</small>",
         "Lee, I., Cao, H. G., <u>Dao, C. T.</u>, Chen, Y. C., & Wu, I. C. (2024, October). \
         <a href='https://doi.org/10.1109/IROS58592.2024.10801464' target='_blank'>Gradient-based Regularization for Action Smoothness in Robotic Control with Reinforcement Learning</a>. \
-        <i>In 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) (pp. 603-610). IEEE</i>.",
+        In <i>2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</i> (pp. 603–610). IEEE.",
         "Phan, T. M. N., <u>Dao, C. T.</u>, Phan, T. T., & Nguyen, H. T. (2023, October). \
         <a href='https://doi.org/10.1007/978-981-99-7649-2_2' target='_blank'> SDCANet: Enhancing Symptoms-Driven Disease Prediction with CNN-Attention Networks</a>. \
         In <i>International Conference on Intelligent Systems and Data Science (ISDS)</i> (pp. 15–30).",
@@ -300,23 +296,22 @@ const publicationInfo = {
         In <i>IT Convergence and Security: Proceedings of ICITCS 2020</i> (pp. 19–28).",
         "Nguyen, T. H., <u>Dao, C. T.</u>, Phan, N. M. T., Nguyen, T. N. C., Phan, T. T., & Pham, H. N. (2020, November). \
         <a href='https://doi.org/10.1007/978-981-33-4370-2_10' target='_blank'>Automatic Attendance System Based on Face Recognition Using HOG Features and Cosine Distance</a>. \
-        In <i>Future Data and Security Engineering. Big Data, Security and Privacy, Smart City and Industry 4.0 Applications: 7th International Conference, FDSE 2020, Quy Nhon, Vietnam, November 25–27, 2020, Proceedings 7</i> (pp. 130–148).",
-
+        In <i>Future Data and Security Engineering. Big Data, Security and Privacy, Smart City and Industry 4.0 Applications: 7th International Conference, FDSE 2020, Quy Nhon, Vietnam, November 25–27, 2020, Proceedings 7</i> (pp. 130–148)."
       ]
     },
     {
       schoolName: "Journal Papers:",
       descBullets: [
-        "Nguyen, H. T., <u>Dao, C. T.</u>, Phan, T. M. N., & Phan, T. T. (2023, January). \
+        "Nguyen, H. T., <u>Dao, C. T.</u>, Phan, T. M. N., & Phan, T. T. (2022). \
         <a href='https://doi.org/10.1504/IJISTA.2022.10050825' target='_blank'>Fake face detection in video using shallow deep learning architectures</a>. \
         <i>International Journal of Intelligent Systems Technologies and Applications</i>, 20(6), 469–486.",
-        "Nguyen, H. T., Nguyen, C. N. T., Phan, T. M. N., & <u>Dao, C. T.</u> (2021, April). \
+        "Nguyen, H. T., Nguyen, C. N. T., Phan, T. M. N., & <u>Dao, C. T.</u> (2021). \
         <a href='https://doi.org/10.5573/IEIESPC.2021.10.2.101' target='_blank'>Pleural Effusion Diagnosis using Local Interpretable Model-agnostic Explanations and Convolutional Neural Network</a>. \
         <i>IEIE Transactions on Smart Processing & Computing</i>, 10(2), 101–108.",
-        "Nguyen, H. T., Phan, T. T., <u>Dao, C. T.</u>, Phan, T. M. N., Ta, P. V. D., Nguyen, C. N. T., ... & Huynh, H. X. (2021, January). \
+        "Nguyen, H. T., Phan, T. T., <u>Dao, C. T.</u>, Phan, T. M. N., Ta, P. V. D., Nguyen, C. N. T., ... & Huynh, H. X. (2021). \
         <a href='https://doi.org/10.5614/j.eng.technol.sci.2021.53.1.9' target='_blank'>Gene Family Abundance Visualization based on Feature Selection Combined Deep Learning to Improve Disease Diagnosis</a>. \
-        <i>Journal of Engineering & Technological Sciences</i>, 53(1).",
-        "Phan, T. T., Ta, P. V. D., Phan, T. M. N., Nguyen, C. N. T., <u>Dao, C. T.</u>, Pham, N. H., & Nguyen, H. T. (2020, June). \
+        <i>Journal of Engineering & Technological Sciences</i>, 53(1), 210109.",
+        "Phan, T. T., Ta, P. V. D., Phan, T. M. N., Nguyen, C. N. T., <u>Dao, C. T.</u>, Pham, N. H., & Nguyen, H. T. (2020). \
         <a href='http://dx.doi.org/10.37569/DalatUniversity.10.2.646%282020%29' target='_blank'>Evaluation of Assistance Tools for Diagnosis of Diseases by Approaching to Personalized Medicine on Metagenomic Data</a>. \
         <i>Dalat University Journal of Science</i>, 117–144."
       ]
@@ -334,12 +329,11 @@ const thesesInfo = {
     {
       descBullets: [
         "Cong-Tinh Dao. <i>Derivative-based Regularization for Action Smoothness in Deep Reinforcement Learning Robotics Control</i>. Master's thesis in EECS, National Yang Ming Chiao Tung University, April 2024.",
-        "Cong-Tinh Dao. <i>Action Recognition and Its Application For Controlling Video Game via Digital Camera</i>. Engineering Thesis in Computer Science, Can Tho University, October 2021.",
+        "Cong-Tinh Dao. <i>Action Recognition and Its Application For Controlling Video Game via Digital Camera</i>. Engineering Thesis in Computer Science, Can Tho University, October 2021."
       ]
-    },
+    }
   ]
 };
-
 
 // Achievements Section
 
@@ -367,7 +361,7 @@ const honorInfo = {
         "2016: Microsoft Certified Application Specialist: Using Microsoft Office Excel 2013",
         "2015 – 2016: Silver/Bronze Medal Olympic 30.4"
       ]
-    },
+    }
   ]
 };
 
@@ -389,7 +383,7 @@ const techStack = {
       progressPercentage: "60%"
     }
   ],
-  displayCodersrank: false, // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
 // Work experience section
