@@ -233,8 +233,8 @@ const experiencesInfo = {
     {
       schoolName: "Volunteers:",
       descBullets: [
-        "Certificate of honor as a vice president of the Vietnamese Student Association (VSA) at National Yang Ming Chiao Tung University by VSA in Taiwan 2023",
-        "Certificate of supporting for International Day by Office of International Affairs at National Yang Ming Chiao Tung University in 2023",
+        "Certificate of honor as a vice president of the Vietnamese Student Association (VSA) at National Yang Ming Chiao Tung University by VSA in Taiwan 2023, 2025",
+        "Certificate of supporting for International Day by Office of International Affairs at National Yang Ming Chiao Tung University in 2023, 2025",
         "IEEE International Conference on Knowledge and Systems Engineering (KSE) 2020. Organized by Can Tho University (CTU) cooperated with VNU University of Engineering and Technology. (Assistant)"
       ]
     },
@@ -276,9 +276,9 @@ const publicationInfo = {
         "Restrepo, D., Wu, C., Tang, Z., Shuai, Z., Phan, T. N. M., Ding, J. E., <u>Dao, C. T.</u>, ... & Nakayama, L. F. (2025, April). \
         <a href='https://doi.org/10.1609/aaai.v39i27.35053' target='_blank'>Multi-OphthaLingua: A Multilingual Benchmark for Assessing and Debiasing LLM Ophthalmological QA in LMICs</a>. \
         In <i>Proceedings of the AAAI Conference on Artificial Intelligence</i> (Vol. 39, No. 27, pp. 28321–28330).",
-        "Tseng, Y. C., <u>Dao, C. T.</u>, Kuo, C. W., Peng, W. C., Hung, F. M., & Hung, C. C. (2024, December). \
-        <a href='https://taai2024.org/international-session/' target='_blank'>Predicting 24–Hour Emergency Room Revisits: A Concept Bottleneck Approach</a>. \
-        In <i>International Conference on Technologies and Applications of Artificial Intelligence (TAAI)</i>. (Accepted).",
+        "Tseng, Y. C., <u>Dao, C. T.</u>, Kuo, C. W., Hung, F. M., Hung, C. C., & Peng, W. C. (2024, December). \
+        <a href='https://doi.org/10.1007/978-981-96-4589-3_20' target='_blank'>Predicting 24–Hour Emergency Room Revisits: A Concept Bottleneck Approach</a>. \
+        In <i>International Conference on Technologies and Applications of Artificial Intelligence</i> (pp. 276-290). Singapore: Springer Nature Singapore.",
         "Phan, T. M. N.*, <u>Dao, C. T.*</u>, Wu, C. W., Wang, J. Z., Liu, S., Ding, J. E., Restrepo. D., Liu F., Hung, F. M., & Peng, W. C. (2024, October). \
         <a href='https://doi.org/10.1145/3627673.3679962' target='_blank'>MEDFuse: Multimodal EHR Data Fusion with Masked Lab-Test Modeling and Large Language Models</a>. \
         In <i>Proceedings of the 33rd ACM International Conference on Information and Knowledge Management (CIKM)</i> (pp. 3974–3978). <small>(*Equal contribution)</small>",
