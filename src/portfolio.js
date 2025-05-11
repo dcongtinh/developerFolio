@@ -272,7 +272,7 @@ const publicationInfo = {
       schoolName: "Conference Papers:",
       descBullets: [
         "Hsu, H. L.*, <u>Dao, C. T.*</u>, Wang, L., Shuai, Z., Phan, T. N. M., Ding, J. E., ... & Wu, C. (2025). \
-        <a href='https://arxiv.org/abs/2503.17900' target='_blank'>MedPlan: A Two-Stage RAG-Based System for Personalized Medical Plan Generation</a>. arXiv preprint arXiv:2503.17900.  <small>(*Equal contribution)</small>",
+        <a href='https://arxiv.org/abs/2503.17900' target='_blank'>MedPlan: A Two-Stage RAG-Based System for Personalized Medical Plan Generation</a>. arXiv preprint arXiv:2503.17900.  <small>(*Equal contribution) (<a href='https://openreview.net/forum?id=UIAxeaO4CR' target='_blank'>Accepted</a> at <a href='https://2025.aclweb.org/calls/industry_track/' target='_blank'>ACL'25 (Industry)</a>)</small>",
         "Restrepo, D., Wu, C., Tang, Z., Shuai, Z., Phan, T. N. M., Ding, J. E., <u>Dao, C. T.</u>, ... & Nakayama, L. F. (2025, April). \
         <a href='https://doi.org/10.1609/aaai.v39i27.35053' target='_blank'>Multi-OphthaLingua: A Multilingual Benchmark for Assessing and Debiasing LLM Ophthalmological QA in LMICs</a>. \
         In <i>Proceedings of the AAAI Conference on Artificial Intelligence</i> (Vol. 39, No. 27, pp. 28321–28330).",
