@@ -35,7 +35,7 @@ export default function GithubProfileCard({prof}) {
             </div>
             <div className="location-div">
               <span className="desc-prof">
-                {emoji('📱 🇻🇳 (+84) 762806851,  🇹🇼 (+886) 933274408')}
+                {emoji('📱 🇻🇳 (+84) 762806851,  🇹🇼 (+886) 976810091')}
               </span>
             </div>
             <div className="location-div">
