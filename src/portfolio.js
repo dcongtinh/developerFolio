@@ -23,7 +23,7 @@ const greeting = {
   username: "Dao Cong Tinh",
   title: "Hi, I'm TonyD",
   subTitle: emoji(
-    "A Ph.D student in Computer Science 👨‍💻 specializing in Deep Reinforcement Learning, LLMs, and Biomedical & Healthcare Informatics. As a competitive programmer and tech enthusiast, I love exploring new technologies to solve real-life problems 🚀."
+    "A Ph.D. student in Computer Science 👨‍💻 with a passion for Deep Reinforcement Learning, LLMs, and Biomedical & Healthcare Informatics. Currently juggling roles as a lecturer at Can Tho University 🇻🇳 and a researcher at NYCU 🇹🇼. I’m all about building intelligent systems that tackle real-world challenges in healthcare and AI-powered solutions 🚀."
   ),
   resumeLink: "https://scholar.google.com/citations?user=oWnVEfoAAAAJ", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -303,6 +303,9 @@ const publicationInfo = {
     {
       schoolName: "Journal Papers:",
       descBullets: [
+        "Phan, T. T., Pham, C. H. T., Phan, T. M. N., <u>Dao, C. T.</u>, Nguyen, H. T. (2025). \
+        <a href='https://doi.org/10.32913/mic-ict-research.v2025.n3.1403' target='_blank'>USLF-Net: A Task-Specific CNN for Liver Fibrosis Classification from Ultrasound with Mobile Clinical Integration</a>. \
+        <i>Journal on Information Technologies & Communications</i>.",
         "Nguyen, H. T., <u>Dao, C. T.</u>, Phan, T. M. N., & Phan, T. T. (2022). \
         <a href='https://doi.org/10.1504/IJISTA.2022.10050825' target='_blank'>Fake face detection in video using shallow deep learning architectures</a>. \
         <i>International Journal of Intelligent Systems Technologies and Applications</i>, 20(6), 469–486.",
