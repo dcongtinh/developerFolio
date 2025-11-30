@@ -209,7 +209,7 @@ const projectsInfo = {
     {
       // schoolName: "Research:",
       descBullets: [
-        "2024/09 – Now:     <b>Large Language Multimodal Models For 5-Year Chronic Disease Cohort Prediction Using EHR Data</b>. Far Eastern Memorial Hospital & National Yang Ming Chiao Tung University.",
+        "2024/09 – 2025/03: <b>Large Language Multimodal Models For 5-Year Chronic Disease Cohort Prediction Using EHR Data</b>. Far Eastern Memorial Hospital (FEMH) & National Yang Ming Chiao Tung University (NYCU).",
         "2020/06 – 2020/12: <b>Practice Management Information System Integrating Attendance With Face Recognition</b>. <i>Hệ thống thông tin quản lý thực hành tích hợp điểm danh bằng nhận diện khuôn mặt</i> (article in Vietnamese with an abstract in English).",
         "2019/12 – 2020/04: <b>Using binning method to improve disease diagnosis efficiency of machine learning models on Metagenomic data</b>. <i>Sử dụng phương pháp binning để nâng cao hiệu quả chẩn đoán bệnh của các mô hình máy học trên dữ liệu Metagenomic</i> (article in Vietnamese with an abstract in English)."
       ]
@@ -271,38 +271,38 @@ const publicationInfo = {
     {
       schoolName: "Conference Papers:",
       descBullets: [
-        "Hsu, H. L.*, <u>Dao, C. T.*</u>, Wang, L., Shuai, Z., Phan, T. N. M., Ding, J. E., ... & Wu, C. (2025). \
+        "Hsu, H. L.*, <u>Dao, C. T.*</u>, Wang, L., Shuai, Z., Phan, T. N. M., ..., Peng, W. C., ... & Wu, C. (2025). \
         <a href='https://doi.org/10.18653/v1/2025.acl-industry.76' target='_blank'>MedPlan: A Two-Stage RAG-Based System for Personalized Medical Plan Generation</a>. \
         In <i>Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 6: Industry Track)</i>, pages 1072–1082, Vienna, Austria. Association for Computational Linguistics. <small>(*Equal contribution)</small>",
-        
+
         "Restrepo, D., Wu, C., Tang, Z., Shuai, Z., Phan, T. N. M., Ding, J. E., <u>Dao, C. T.</u>, ... & Nakayama, L. F. (2025, April). \
         <a href='https://doi.org/10.1609/aaai.v39i27.35053' target='_blank'>Multi-OphthaLingua: A Multilingual Benchmark for Assessing and Debiasing LLM Ophthalmological QA in LMICs</a>. \
         In <i>Proceedings of the AAAI Conference on Artificial Intelligence</i> (Vol. 39, No. 27, pp. 28321–28330).",
-        
+
         "Tseng, Y. C., <u>Dao, C. T.</u>, Kuo, C. W., Hung, F. M., Hung, C. C., & Peng, W. C. (2024, December). \
         <a href='https://doi.org/10.1007/978-981-96-4589-3_20' target='_blank'>Predicting 24–Hour Emergency Room Revisits: A Concept Bottleneck Approach</a>. \
         In <i>International Conference on Technologies and Applications of Artificial Intelligence</i> (pp. 276-290). Singapore: Springer Nature Singapore.",
-        
+
         "Phan, T. M. N.*, <u>Dao, C. T.*</u>, Wu, C. W., Wang, J. Z., Liu, S., Ding, J. E., Restrepo. D., Liu F., Hung, F. M., & Peng, W. C. (2024, October). \
         <a href='https://doi.org/10.1145/3627673.3679962' target='_blank'>MEDFuse: Multimodal EHR Data Fusion with Masked Lab-Test Modeling and Large Language Models</a>. \
         In <i>Proceedings of the 33rd ACM International Conference on Information and Knowledge Management (CIKM)</i> (pp. 3974–3978). <small>(*Equal contribution)</small>",
-        
+
         "Lee, I., Cao, H. G., <u>Dao, C. T.</u>, Chen, Y. C., & Wu, I. C. (2024, October). \
         <a href='https://doi.org/10.1109/IROS58592.2024.10801464' target='_blank'>Gradient-based Regularization for Action Smoothness in Robotic Control with Reinforcement Learning</a>. \
         In <i>2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</i> (pp. 603–610). IEEE.",
-        
+
         "Phan, T. M. N., <u>Dao, C. T.</u>, Phan, T. T., & Nguyen, H. T. (2023, October). \
         <a href='https://doi.org/10.1007/978-981-99-7649-2_2' target='_blank'> SDCANet: Enhancing Symptoms-Driven Disease Prediction with CNN-Attention Networks</a>. \
         In <i>International Conference on Intelligent Systems and Data Science (ISDS)</i> (pp. 15–30).",
-        
+
         "<u>Dao, C. T.</u>, & Nguyen, H. T. (2021, November). \
         <a href='https://doi.org/10.1007/978-981-16-8062-5_3' target='_blank'>Human mobility prediction using k-latest check-ins</a>.\
         In <i>Future Data and Security Engineering. Big Data, Security and Privacy, Smart City and Industry 4.0 Applications: 8th International Conference, FDSE 2021, Virtual Event, November 24–26, 2021, Proceedings 8</i> (pp. 36–49).",
-        
+
         "Nguyen, T. H., Phan, T. T., <u>Dao, C. T.</u>, Ta, D. V. P., Nguyen, T. N. C., Phan, N. M. T., & Pham, H. N. (2020, December). \
         <a href='https://doi.org/10.1007/978-981-15-9354-3_2' target='_blank'>Effective Disease Prediction on Gene Family Abundance Using Feature Selection and Binning Approach</a>. \
         In <i>IT Convergence and Security: Proceedings of ICITCS 2020</i> (pp. 19–28).",
-        
+
         "Nguyen, T. H., <u>Dao, C. T.</u>, Phan, N. M. T., Nguyen, T. N. C., Phan, T. T., & Pham, H. N. (2020, November). \
         <a href='https://doi.org/10.1007/978-981-33-4370-2_10' target='_blank'>Automatic Attendance System Based on Face Recognition Using HOG Features and Cosine Distance</a>. \
         In <i>Future Data and Security Engineering. Big Data, Security and Privacy, Smart City and Industry 4.0 Applications: 7th International Conference, FDSE 2020, Quy Nhon, Vietnam, November 25–27, 2020, Proceedings 7</i> (pp. 130–148)."
@@ -311,7 +311,7 @@ const publicationInfo = {
     {
       schoolName: "Journal Papers:",
       descBullets: [
-        "<u>Dao, C. T.</u>, Phan, N. M. T., Ding, J. E., Wu, C., Restrepo, D., Luo, D., Zhao, F., Liao, C. C., Peng, W. C., Wang, C. T., Chen, P. F., Chen, L., Ju, X., Liu, F., & Hung, F. M. (2025).\
+        "<u>Dao, C. T.</u>, Phan, N. M. T., Ding, J. E., Wu, C., Restrepo, D., Luo, D., ..., Peng, W. C., ... & Hung, F. M. (2025).\
         <a href='https://doi.org/10.1007/s13755-025-00396-w' target='_blank'>CURENet: combining unified representations for efficient chronic disease prediction</a>. \
         <i>Health Information Science and Systems</i>, 14(1), 7.",
 
