@@ -23,7 +23,7 @@ const greeting = {
   username: "Dao Cong Tinh",
   title: "Hi, I'm TonyD",
   subTitle: emoji(
-    "A Ph.D. student in Computer Science 👨‍💻 with a passion for Deep Reinforcement Learning, LLMs, and Biomedical & Healthcare Informatics. Currently juggling roles as a lecturer at Can Tho University 🇻🇳 and a researcher at NYCU 🇹🇼. I’m all about building intelligent systems that tackle real-world challenges in healthcare and AI-powered solutions 🚀."
+    "A Ph.D. student in Computer Science 👨‍💻 with a passion for Deep Reinforcement Learning, LLMs, and Biomedical & Healthcare Informatics. Currently juggling roles as a lecturer at Can Tho University 🇻🇳 and a researcher at NYCU 🇹🇼. I’m all about building intelligent systems that tackle real-world healthcare challenges through AI-powered solutions 🚀."
   ),
   resumeLink: "https://scholar.google.com/citations?user=oWnVEfoAAAAJ", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
