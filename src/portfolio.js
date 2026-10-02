@@ -271,6 +271,10 @@ const publicationInfo = {
     {
       schoolName: "Conference Papers:",
       descBullets: [
+        "Narknoi, P.*, <u>Dao, C. T.*</u>, Phan, N. M. T., & Peng, W. C. (2026, June). \
+        <a href='https://doi.org/10.1007/978-981-92-2014-4_1' target='_blank'>CauMed: Causal Graph-Based Reasoning for Medical QA</a>. \
+        In Pacific-Asia Conference on Knowledge Discovery and Data Mining (pp. 3-14). Singapore: Springer Nature Singapore. <small>(*Equal contribution)</small>",
+
         "Hsu, H. L.*, <u>Dao, C. T.*</u>, Wang, L., Shuai, Z., Phan, T. N. M., ..., Peng, W. C., ... & Wu, C. (2025). \
         <a href='https://doi.org/10.18653/v1/2025.acl-industry.76' target='_blank'>MedPlan: A Two-Stage RAG-Based System for Personalized Medical Plan Generation</a>. \
         In <i>Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 6: Industry Track)</i>, pages 1072–1082, Vienna, Austria. Association for Computational Linguistics. <small>(*Equal contribution)</small>",
